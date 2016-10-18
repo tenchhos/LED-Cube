@@ -1,24 +1,25 @@
 #ifndef WINDOW_H
 #define WINDOW_H
-#include <QWidget>
-#include <QtWidgets>
+
+#include <QtGui>
 #include "myglwidget.h"
 
 class GLWidget;
 
-class Window: public QWidget
+class Window : public QWidget
 {
- Q_OBJECT
+	Q_OBJECT
 
- public:
-     Window(QWidget *parent = 0);
+public:
+	Window(QWidget *parent = 0);
 
- private:
-     MyGLWidget *glWidget;
-     QGroupBox *createLEDCountGroup();
-     QGroupBox *createLEDColorGroup();
-     QGroupBox *createTransformsGroup();
-    // QGraphicsView  LEDDisplay();
+private:
+    MyGLWidget *glWidget;
+    QGroupBox *Configurations();
+	QGroupBox *Resolution();
+	QGroupBox *LEDColor();
+	QGroupBox *Transforms();
+
 };
 
-#endif // WINDOW_H
+#endif
