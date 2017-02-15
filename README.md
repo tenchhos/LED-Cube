@@ -23,9 +23,11 @@ Our 'LED Cube Simulator' displays a sine function.
 We achieved the simulation and manipulation of 3D image by adding several control options such as rotation in xyz dimension, zooming, transparency, spacing between each voxels, size of each voxel, different colors, ... , you get the picture. You can see how our software looks like in the images below.
 
 LED Cube Simulator dispalys a big cube made up of several tiny voxels.
+
 ![Big Cube](images/bigCube.png)
 
 LED Cube Simulator displays a sine-function wave animation.
+
 ![Sine Wave Cube](images/sineWave.png)
 
 ### Credits
