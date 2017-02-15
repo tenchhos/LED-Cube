@@ -15,7 +15,9 @@ An actual 'LED Cube' displays a cube inside it.
 
 <img src="images/cube.png" alt="Acutal LED Cube" width=500px height=400px>
 
+
 Our 'LED Cube Simulator' displays a sine function.
+
 <img src="images/sine_cube.png" alt="Sine Wave LED Cube" width=500px height=400px >
 
 We achieved the simulation and manipulation of 3D image by adding several control options such as rotation in xyz dimension, zooming, transparency, spacing between each voxels, size of each voxel, different colors, ... , you get the picture. You can see how our software looks like in the images below.
